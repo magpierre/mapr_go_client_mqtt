@@ -8,4 +8,4 @@ to run the docker container:
 docker run mapr_go_client_mqtt which will show the parameters
 
 To run with parameters:
-docker run mapr_go_client_mqtt -password mapr -mapr-url 10.0.0.11:5678 -mqtt-url 10.0.0.11:1883
+docker run --rm -it mapr_go_client_mqtt -password mapr -mapr-url 10.0.0.11:5678 -mqtt-url 10.0.0.11:1883
